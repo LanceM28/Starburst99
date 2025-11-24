@@ -1,0 +1,13 @@
+Job on coaticook.stsci.edu started at Fri Aug 18 10:17:55 EDT 2023
+ 
+ INFO: NO HRD FOR ISOCHRONE SYNTHESIS!
+ Note: IEEE floating-point exception flags raised: 
+    Inexact;  Underflow; 
+ See the Numerical Computation Guide, ieee_flags(3M) 
+
+real    31:00.6
+user    30:59.8
+sys         0.6
+ 
+Save synthesis-files to /data/coaticook2/httpd/cgi-bin/tmp/TMP61239/output/Kroupa-lowmet.*1
+Done at Fri Aug 18 10:48:55 EDT 2023
