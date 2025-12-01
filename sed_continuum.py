@@ -196,6 +196,14 @@ def add_emission_line(wav_obs, total_flux, line_center_rest,
 
     return total_flux + profile
 
+linecents = [] #angstrom
+luminosity = [] #need it in erg/sec
+redshift = []
+sigma_A = []
+
+
+add_emission_line(wav_obs0[a1:b1], y_tot0, linecents, )
+
 fig,axs = plt.subplots(2, 1, figsize=(6, 3.5), dpi=200)
 plt.subplots_adjust(hspace=0.85,top=0.95,right=0.95,bottom=0.13)
 axs[0].plot(wav_obs0[a1:b1], y_tot0, label=f'{run:s} t={time0:3.0f} Myr (z={redsh0:2.2f})')
